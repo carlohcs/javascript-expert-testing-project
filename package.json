@@ -7,8 +7,8 @@
   },
   "scripts": {
     "test": "mocha --parallel src/**/*.test.js",
-    "test:watch": "mocha -w --parallel src/**/*.test.js",
-    "test:coverage": "nyc mocha --parallel src/**/*.js",
+    "test:watch": "mocha -w --parallel **/**/*.test.js",
+    "test:coverage": "nyc mocha --parallel **/**/*.test.js",
     "seed": "node ./seed"
   },
   "keywords": [
@@ -20,6 +20,7 @@
   "author": "Carlos Henrique Carvalho de Santana <carlohcs@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.3.6",
     "faker": "^5.1.0",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0",
