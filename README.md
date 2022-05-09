@@ -1,2 +1,3 @@
-# javascript-expert-testing-project
+# Javascript Expert: Testing project
+
 Testing project form javascript expert course

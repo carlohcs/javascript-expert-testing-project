@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bfbc6912-bfef-4c5b-ba7a-441551a20b47",
+    "name": "Grand Cherokee",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "0b66a4a3-a520-4295-a982-1b5266089490",
+    "name": "A4",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "891dee93-cb3b-48e4-a075-3a0a9d602710",
+    "name": "Silverado",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]
