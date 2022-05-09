@@ -1,0 +1,28 @@
+{
+  "name": "javascript-expert-testing-project",
+  "version": "1.0.0",
+  "description": "Testing project form javascript expert course",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --parallel src/**/*.test.js",
+    "test:watch": "mocha -w --parallel src/**/*.test.js",
+    "test:coverage": "nyc mocha --parallel src/**/*.js",
+    "seed": "node ./seed"
+  },
+  "keywords": [
+    "javascript",
+    "testing",
+    "sinon",
+    "nyc"
+  ],
+  "author": "Carlos Henrique Carvalho de Santana <carlohcs@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^5.1.0",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "sinon": "^14.0.0"
+  }
+}
