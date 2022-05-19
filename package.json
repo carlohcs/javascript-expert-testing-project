@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --parallel src/**/*.test.js",
+    "test": "mocha --parallel **/**/*.test.js",
     "test:watch": "mocha -w --parallel **/**/*.test.js",
     "test:coverage": "nyc mocha --parallel **/**/*.test.js",
     "seed": "node ./seed"
